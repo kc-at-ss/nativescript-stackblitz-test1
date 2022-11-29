@@ -6,7 +6,7 @@
 
     <GridLayout>
       <Label
-        class="text-xl align-middle text-center text-gray-500"
+        class="text-xl align-middle text-center text-gray-500 info"
         :text="message"
         @tap="logMessage"
       />
@@ -33,7 +33,7 @@ export default Vue.extend({
 </script>
 
 <style>
-/* .info {
-    font-size: 20;
-  } */
+.info {
+  font-size: 30;
+}
 </style>
